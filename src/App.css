@@ -2,7 +2,7 @@
   text-align: center;
 }
 .img-container {
-  margin-left: 200px;
+  margin-left: 250px;
   margin-right: 100px;
 }
  .img-table {
@@ -10,8 +10,8 @@
 }
 
 img {
-  height: 250px;
-  width: 250px;
+  height: 225px;
+  width: 225px;
   margin: 15px;
   border-radius: 25px;
   border: 2px white solid;

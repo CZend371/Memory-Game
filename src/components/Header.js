@@ -1,4 +1,5 @@
 import React from "react";
+
 // remember to use camelCase for CSS within components!
 const styles = {
     jumbotron: {
@@ -22,8 +23,8 @@ return (
     <div className="container">
       <div className="jumbotron" style= {styles.jumbotron}>
         <h1>Memory Game!</h1>
-        <h2 style={styles.h2}>Points: {props.count}</h2>
-        <p style={styles.p}>Click on an image to earn points, but don't click the same image more than once!</p>
+        <h2 style={styles.h2}>Points: {props.score}</h2>
+        <p style={styles.p}>{props.message}</p>
       </div>
     </div>
         );
