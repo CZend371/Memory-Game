@@ -1,6 +1,11 @@
-function Image() {
+import React from "react";
+
+
+function Image(props) {
   return (
-   
+        <div className="img-table">
+            <img alt={props.name} src={props.image} />
+        </div>
   );
 }
 

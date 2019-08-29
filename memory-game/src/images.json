@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Ant-Man",
+        "image": "./images/antman.png",
+        "select": false
+    },
+    {
+        "id": 2,
+        "name": "Captain America",
+        "image": "./images/captain.png",
+        "select": false
+    },
+    {
+        "id": 3,
+        "name": "Hawkeye",
+        "image": "./images/hawkeye.png",
+        "select": false
+    },
+    {
+        "id": 4,
+        "name": "Hulk",
+        "image": "./images/hulk.png",
+        "select": false
+    },
+    {
+        "id": 5,
+        "name": "Captain Marvel",
+        "image": "./images/marvel.png",
+        "select": false
+    },
+    {
+        "id": 6,
+        "name": "Nebula",
+        "image": "./images/Nebula.png",
+        "select": false
+    },
+    {
+        "id": 7,
+        "name": "Rocket Raccoon",
+        "image": "./images/rocket.png",
+        "select": false
+    },
+    {
+        "id": 8,
+        "name": "Spider-Man",
+        "image": "./images/spiderman.png",
+        "select": false
+    },
+    {
+        "id": 9,
+        "name": "Iron Man",
+        "image": "./images/stark.png",
+        "select": false
+    },
+    {
+        "id": 10,
+        "name": "Thor",
+        "image": "./images/thor.png",
+        "select": false
+    },
+    {
+        "id": 11,
+        "name": "War Machine",
+        "image": "./images/warmachine.png",
+        "select": false
+    },
+    {
+        "id": 12,
+        "name": "Black Widow",
+        "image": "./images/widow.png",
+        "select": false
+    }
+]
