@@ -14,21 +14,17 @@ class App extends Component {
     message: "Click on an image to earn points, but don't click the same image more than once!"
   };
 
- reset = (id) => {
+  reset = () => {
     this.setState({ message: "You Lost!" });
     this.setState({ score: 0 });
+
     this.shuffle();
-    // this.state.images.find((any, i) => {
-    //   if (any.id === id) {
-    //    this.setState(images[i].select = false); 
-      //  console.log(select);
-        // }});
     return true;
   }
-  
-shuffle= () => {
-  this.state.images.sort(() => Math.random() - 0.5)
-}
+
+  shuffle = () => {
+    this.state.images.sort(() => Math.random() - 0.5)
+  }
   clickHandler = id => {
     this.state.images.find((any, i) => {
       if (any.id === id) {
@@ -45,30 +41,30 @@ shuffle= () => {
       }
     });
     if (this.state.message === "You Lost!") {
-      this.setState({ message: "Click on an image to earn points, but don't click the same image more than once!"});
+      this.setState({ message: "Click on an image to earn points, but don't click the same image more than once!" });
     }
   }
 
-render(){
-  
-  return (
-  <Wrapper>
-   <Header 
-   score={this.state.score}
-   message={this.state.message}/>
-   <div className="img-container">
-   {this.state.images.map(img => (
-   <Image
-   id={img.id}
-   key={img.id}
-   name={img.name}
-   image={img.image} 
-   click={this.clickHandler}
-   />
-   ))}
-  </div>
-  </Wrapper>
-  );
-}
+  render() {
+
+    return (
+      <Wrapper>
+        <Header
+          score={this.state.score}
+          message={this.state.message} />
+        <div className="img-container">
+          {this.state.images.map(img => (
+            <Image
+              id={img.id}
+              key={img.id}
+              name={img.name}
+              image={img.image}
+              click={this.clickHandler}
+            />
+          ))}
+        </div>
+      </Wrapper>
+    );
+  }
 }
 export default App;

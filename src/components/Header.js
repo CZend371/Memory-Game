@@ -18,16 +18,16 @@ const styles = {
 
 };
 
-function Header (props) {
-return (
-    <div className="container">
-      <div className="jumbotron" style= {styles.jumbotron}>
-        <h1>Memory Game!</h1>
-        <h2 style={styles.h2}>Points: {props.score}</h2>
-        <p style={styles.p}>{props.message}</p>
-      </div>
-    </div>
-        );
+function Header(props) {
+    return (
+        <div className="container">
+            <div className="jumbotron" style={styles.jumbotron}>
+                <h1>Memory Game!</h1>
+                <h2 style={styles.h2}>Points: {props.score}</h2>
+                <p style={styles.p}>{props.message}</p>
+            </div>
+        </div>
+    );
 }
 
 export default Header;
