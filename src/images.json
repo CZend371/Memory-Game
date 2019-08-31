@@ -32,7 +32,7 @@
     {
         "id": 6,
         "name": "Nebula",
-        "image": "./images/Nebula.png",
+        "image": "./images/nebula.png",
         "select": false
     },
     {
