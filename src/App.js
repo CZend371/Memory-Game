@@ -14,15 +14,15 @@ class App extends Component {
     message: "Click on an image to earn points, but don't click the same image more than once!"
   };
 
- reset = () => {
+ reset = (id) => {
     this.setState({ message: "You Lost!" });
     this.setState({ score: 0 });
     this.shuffle();
     // this.state.images.find((any, i) => {
-    //   if (any.select === select) {
-    //    images[i].select = false 
-    //    console.log(select);
-    //     }});
+    //   if (any.id === id) {
+    //    this.setState(images[i].select = false); 
+      //  console.log(select);
+        }});
     return true;
   }
   
