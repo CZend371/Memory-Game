@@ -22,7 +22,7 @@ class App extends Component {
     //   if (any.id === id) {
     //    this.setState(images[i].select = false); 
       //  console.log(select);
-        }});
+        // }});
     return true;
   }
   
